@@ -34,9 +34,6 @@ class _CategoryMainPageState extends State<CategoryMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        leading: Navbar(),
-      ),
       body: SingleChildScrollView(
         child: Column(
           children: [

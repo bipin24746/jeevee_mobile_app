@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:jeevee_mobile_app/Categories/containers/CategoryMain/CategoryHome.dart';
 import 'package:jeevee_mobile_app/Navbar/navbar.dart';
 import 'package:jeevee_mobile_app/homepage/homepage.dart';
+import 'package:jeevee_mobile_app/productDetails/productDetails.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: HomePage(),
+      home: Productdetails(),
     );
   }
 }
